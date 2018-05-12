@@ -1,9 +1,14 @@
 import React from 'react';
 import {View} from 'react-native';
-import DisplayBox from './DisplayBox'
+import DisplayBox from './DisplayBox';
+import ButtonPanel from './ButtonPanel';
 
 export default class Calculator extends React.Component {
   render() {
-    return (<DisplayBox />)
+    return (<View>
+      <DisplayBox />
+      <ButtonPanel />
+    </View>
+  );
   }
 }
