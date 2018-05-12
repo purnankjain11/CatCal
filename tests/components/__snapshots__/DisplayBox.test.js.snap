@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`component snapshot test renders calculator without crashing 1`] = `
+exports[`component snapshot test renders Display Box without crashing 1`] = `
 <View>
   <Text
     accessible={true}
